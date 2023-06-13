@@ -8,7 +8,7 @@ All of my work I have done while at university.
   - Semester 1
     - [4071CEM](Year%201/Semester%201/4071CEM)
   - Semester 2
-    - [4003CEM](Year%201/Semester%201/4003CEM-Exam-Practise)
-    - [4005CEM](Year%201/Semester%201/4005CEM)
+    - [4003CEM](Year%201/Semester%202/4003CEM-Exam-Practise)
+    - [4005CEM](Year%201/Semester%202/4005CEM)
 - Year 2
   - XX
