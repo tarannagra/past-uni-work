@@ -1,0 +1,161 @@
+/* Copyright (C) 2022 Harry Clark - Student No. 12340530 */
+/* DATE: 04/01/23 */
+
+#pragma once
+
+#ifndef ENGINE
+#define ENGINE
+
+#ifndef ENGINE_INCLUDES
+#define ENGINE_INCLUDES
+
+#include "framework.h"
+#include "common.h"
+
+#include <atomic>
+#include <algorithm>
+#include <chrono>
+#include <condition_variable>
+#include <iostream>
+#include <string>
+#include <thread>
+#include <utility>
+#include <Windows.h>
+#include <vector>
+
+#ifndef CONSOLE_ATTRIBUTES
+#define CONSOLE_ATTRIBUTES
+
+static const int SCREEN_WIDTH = 120;
+static const int SCREEN_HEIGHT = 40;
+static const int WORLD_WIDTH = 32;
+static const int WORLD_HEIGHT = 32;
+
+#define SCREEN_BUFFER WIDE_CHAR
+#define UNICODE_BUFFER CHAR_INFO
+#define CONSOLE_HANDLE HANDLE 
+#define CONSOLE_HANDLE_INPUT HANDLE
+#define CONSOLE_INFO CONSOLE_SCREEN_BUFFER_INFO
+#define CONSOLE_RECT SMALL_RECT
+
+#endif
+
+#ifndef PLAYER_ATTRIBUTES
+#define PLAYER_ATTRIBUTES
+
+static F32 PLAYER_X, PLAYER_Y;
+static F32 PLAYER_ROTATION;
+static F32 PLAYER_SPEED;
+
+#endif
+
+#ifndef CAMERA_ATTRIBUTES
+#define CAMERA_ATTRIBUTES
+
+#define FOV F32
+#define DOF F32
+#define RAYCAST F32
+#define RAYCAST_STEP F32
+#define RAYCAST_DIST F32
+#define RAYCAST_VEC_X F32 
+#define RAYCAST_VEC_Y F32
+#define RAYCAST_OOB_X F32
+#define RAYCAST_OOB_Y F32
+#define RAYCAST_CEILING U32
+#define HIT_WALL bool
+#define BOUNDARY_BOX bool
+
+#endif 
+
+/* USING SHORT FOR A SMALLER DATA TYPE */
+/* AND END RESULT AS A RESULT OF ONLY BEING CONCERNED WITH */
+/* A SPECIFIC RANGE */
+
+#ifndef KEY_ATTRIBUTES
+#define KEY_ATTRIBUTES 
+
+typedef short KEY_NEW[256];
+typedef short KEY_OLD[256];
+
+typedef struct KEY_STATE
+{
+	static bool PRESSED;
+	static bool RELEASED;
+	static bool HELD;
+
+} KEYS;
+
+#endif
+
+/* THIS STRUCTURE DENOTES THE GAME'S ASYNCHRONOUS, */
+/* MULTI-THREADED FUNCTIONS TO BOTH MODIFY AND ALLOCATE MEMORY */
+/* THROUGH THE GAME'S RUNTIME */
+
+/* THIS IS JUST FOR VARIABLE BASED ACTIONS THAT REQUIRE AN ALLOCATION */
+/* OR AN ALTERATION OF SOMEKIND */
+
+/* USING C++ STANDARD LIBRARIES WILL DO JUST THAT */
+
+typedef struct GAME_FUNCTIONS
+{
+	typedef void START();
+	typedef void GAME_THREAD();
+	static void THREAD_CONSTRUCTOR();
+	static std::atomic<bool> THREAD_ACTIVE;
+	static std::condition_variable ON_DESTROY_GAME; 
+	static std::mutex GAME_MUTEX; 
+
+};
+
+#endif
+
+
+/* THIS IS THE MERGE SORT DECLARATIVES */
+/* WRITEN BY VINCE DAYRIT, AS PART OF GOING */
+/* THROUGH A SORTING ALGORITHIM TO DETERMINE THE FPS */
+/* RELATIVE TO THE END USER'S VSYNC */
+
+#ifndef MERGE_SORT_ALGO
+#define MERGE_SORT_ALGO
+
+static std::vector<int> ARRAY;
+typedef std::vector<int> LEFT, RIGHT;
+typedef U32 MIDDLE;
+typedef std::vector<int> RESULT;
+typedef std::vector<int> MERGE_SORT();
+
+#endif 
+
+
+/* I HAVE A VARIABLE TYPE, IT ENDS IN A POINT */
+/* POINTY POINTY POINTY, POINTY POINTY POINT */
+
+#ifndef POINTERS
+#define POINTERS
+
+SCREEN_BUFFER* SCREEN;
+CONSOLE_HANDLE* CONSOLE_HANDLER;
+CONSOLE_HANDLE_INPUT* CONSOLE_INPUT_HANDLER;
+CONSOLE_INFO* CONSOLE_INFORMATION;
+CONSOLE_RECT CONSOLE;
+UNICODE_BUFFER* UNICODE_BUFF;
+WIDE_STRING MAP_LINE;
+KEYS* KEY[256]{0};
+KEY_NEW* NEW_KEY[256]{0};
+KEY_OLD* OLD_KEY[256]{0};
+FOV CAMERA_FOV;
+DOF CAMERA_DOF;
+RAYCAST RAY_CAST;
+RAYCAST_STEP STEP_SIZE;
+RAYCAST_DIST DIST;
+RAYCAST_VEC_X VEC_X;
+RAYCAST_VEC_Y VEC_Y;
+RAYCAST_OOB_X OOB_X;
+RAYCAST_OOB_Y OOB_Y;
+RAYCAST_CEILING CEILING;
+HIT_WALL HAS_HIT_WALL;
+BOUNDARY_BOX BOUNDARY;
+
+#endif
+
+#endif
