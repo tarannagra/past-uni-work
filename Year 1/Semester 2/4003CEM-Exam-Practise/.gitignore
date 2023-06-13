@@ -1,0 +1,5 @@
+# 4003CEM-Exam-Practise .gitignore file configuration
+
+# Do not need you to push the exe files.
+*.exe
+a.out
