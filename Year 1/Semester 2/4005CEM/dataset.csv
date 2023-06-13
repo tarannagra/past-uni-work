@@ -1,0 +1,44 @@
+﻿OwnerID,OwnerName,TelNo,Email,DogID,DogName,Breed,Size,Coat,Comments,GroomOption,Description,GroomTime,SizeTimeAdjustment,AdjustedGroomTime,GroomCost,SizeCostAdjustment,AdjustedGroomCost,BookingDate,BookingTime,TOTALLengthofAppointment,TOTALCost
+765,Mahima Raab,543 777123,raabm@btd.com,D901,Bella,Rhodesian Ridgeback,Large,Single,Cannot eat beef based treats,W011,Wash and Dry,15,80,27,£10.00,80,£18.00,10/08/2022,15:00,37,£31.50
+765,Mahima Raab,543 777123,raabm@btd.com,D901,Bella,Rhodesian Ridgeback,Large,Single,Cannot eat beef based treats,E899,Ear Cleaning,10,0,10,£7.50,80,£13.50,10/08/2022,15:00,37,£31.50
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,N045,Nail Trim ,10,0,10,£5.00,0,£5.00,16/12/2022,11:00,60,£52.50
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,W050,Luxury Wash and Dry,25,0,25,£17.50,0,£17.50,16/12/2022,11:00,60,£52.50
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,C021,Teddy Bear Cut,25,0,25,£30.00,0,£30.00,16/12/2022,11:00,60,£52.50
+542,Peter Small,123 654263,small@gsnail.com,D877,Rick-Roly,Schnauzer,Small,Single,Use sensitive shampoo,W011,Wash and Dry,15,0,15,£10.00,0,£10.00,05/04/2022,14:30,30,£30.00
+542,Peter Small,123 654263,small@gsnail.com,D877,Rick-Roly,Schnauzer,Small,Single,Use sensitive shampoo,C034,Breed Trim,15,0,15,£20.00,0,£20.00,05/04/2022,14:30,30,£30.00
+213,Jordan Foster,6734 321022,FosterMJ@Yahoop.com,D567,Brian,Dachshund,Small,Single,Snappy when being washed,N045,Nail Trim ,10,0,10,£5.00,0,£5.00,27/02/2022,09:45,20,£12.50
+213,Jordan Foster,6734 321022,FosterMJ@Yahoop.com,D567,Brian,Dachshund,Small,Single,Snappy when being washed,E899,Ear Cleaning,10,0,10,£7.50,80,£13.50,27/02/2022,09:45,20,£12.50
+101,Joe Brown,0121 543182,Jbrown@gmaiy.com,D231,Max,Golden Retriever,Large,Double,Does not like hairdryer on face,W011,Wash and Dry,15,80,27,£10.00,80,£18.00,10/08/2022,09:00,72,£66.60
+101,Joe Brown,0121 543182,Jbrown@gmaiy.com,D231,Max,Golden Retriever,Large,Double,Does not like hairdryer on face,C034,Breed Trim,15,80,27,£20.00,80,£36.00,10/08/2022,09:00,72,£66.60
+101,Joe Brown,0121 543182,Jbrown@gmaiy.com,D231,Max,Golden Retriever,Large,Double,Does not like hairdryer on face,X110,Undercoat Reduction,10,80,18,£7.00,80,£12.60,10/08/2022,09:00,72,£66.60
+620,Fathima Masud,342 907652,Masud@gsnail.com,D987,Diesel,Dalmatian,Medium,Single,,N045,Nail Trim ,10,0,10,£5.00,0,£5.00,26/02/2022,10:00,31,£27.50
+620,Fathima Masud,342 907652,Masud@gsnail.com,D987,Diesel,Dalmatian,Medium,Single,,W011,Wash and Dry,15,50,22.5,£15.00,50,£22.50,26/02/2022,10:00,32.5,£27.50
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,N045,Nail Trim ,10,0,10,£5.00,0,£5.00,05/04/2022,11:00,10,£5.00
+765,Mahima Raab,543 777123,raabm@btd.com,D901,Bella,Rhodesian Ridgeback,Large,Single,Cannot eat beef based treats,W011,Wash and Dry,15,80,27,£10.00,80,£18.00,12/07/2022,11:00,47,£36.50
+765,Mahima Raab,543 777123,raabm@btd.com,D901,Bella,Rhodesian Ridgeback,Large,Single,Cannot eat beef based treats,E899,Ear Cleaning,10,0,10,£7.50,80,£13.50,12/07/2022,11:00,47,£36.50
+765,Mahima Raab,543 777123,raabm@btd.com,D901,Bella,Rhodesian Ridgeback,Large,Single,Cannot eat beef based treats,N045,Nail Trim ,10,0,10,£5.00,0,£5.00,12/07/2022,11:00,47,£36.50
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,N045,Nail Trim ,10,0,10,£5.00,0,£5.00,03/06/2022,15:45,70,£64.50
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,W050,Luxury Wash and Dry,25,0,25,£17.50,0,£17.50,03/06/2022,15:45,70,£64.50
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,C021,Teddy Bear Cut,25,0,25,£30.00,0,£30.00,03/06/2022,15:45,70,£64.50
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,X110,Undercoat Reduction,10,0,10,£7.00,0,£7.00,03/06/2022,15:45,70,£64.50
+765,Mahima Raab,543 777123,raabm@btd.com,D901,Bella,Rhodesian Ridgeback,Large,Single,Cannot eat beef based treats,W011,Wash and Dry,15,80,27,£10.00,80,£18.00,10/08/2022,14:00,47,£36.50
+765,Mahima Raab,543 777123,raabm@btd.com,D901,Bella,Rhodesian Ridgeback,Large,Single,Cannot eat beef based treats,E899,Ear Cleaning,10,0,10,£7.50,80,£13.50,10/08/2022,14:00,47,£36.50
+765,Mahima Raab,543 777123,raabm@btd.com,D901,Bella,Rhodesian Ridgeback,Large,Single,Cannot eat beef based treats,N045,Nail Trim ,10,0,10,£5.00,0,£5.00,10/08/2022,14:00,47,£36.50
+776,Samuel Johnson,231 592833,Johnsons@yakkity.com,D543,Major Tom,Tibetan Terrier,Medium,Double,,W050,Luxury Wash and Dry,25,50,37.5,£17.50,50,£26.25,12/07/2022,09:30,37.5,£26.25
+452,Colin Daniels,2476 90345,cs@aoool.com,D696,Bitsy-Malone,Toy Poodle,Small,Single,Nervous with other dogs,C021,Teddy Bear Cut,25,0,25,£30.00,0,£30.00,26/02/2022,11:30,70,£57.50
+452,Colin Daniels,2476 90345,cs@aoool.com,D696,Bitsy-Malone,Toy Poodle,Small,Single,Nervous with other dogs,W050,Luxury Wash and Dry,25,0,25,£17.50,0,£17.50,26/02/2022,11:30,70,£57.50
+452,Colin Daniels,2476 90345,cs@aoool.com,D696,Bitsy-Malone,Toy Poodle,Small,Single,Nervous with other dogs,N055,Nail Trim & Paint,20,0,20,£10.00,0,£10.00,26/02/2022,11:30,70,£57.50
+231,Wen Chung,533 789873,wchung@btbt.com,D121,Stan,Standard Poodle,Medium,Single,Does not like paws being clipped,W011,Wash and Dry,15,50,22.5,£10.00,50,£15.00,31/03/2022,16:00,60,£60.00
+542,Wen Chung,123 654263,wchung@btbt.com,D121,Stan,Standard Poodle,Medium,Single,Does not like paws being clipped,C011,Lion Cut,25,50,37.5,£30.00,50,£45.00,31/03/2022,16:00,60,£60.00
+213,Jordan Foster,6734 321022,FosterMJ@Yahoop.com,D567,Brian,Dachshund,Small,Single,Snappy when being washed,W050,Luxury Wash and Dry,25,0,25,£17.50,0,£17.50,03/06/2022,11:30,45,£30.00
+213,Jordan Foster,6734 321022,FosterMJ@Yahoop.com,D567,Brian,Dachshund,Small,Single,Snappy when being washed,N045,Nail Trim ,10,0,10,£5.00,0,£5.00,03/06/2022,11:30,45,£30.00
+213,Jordan Foster,6734 321022,FosterMJ@Yahoop.com,D567,Brian,Dachshund,Small,Single,Snappy when being washed,E899,Ear Cleaning,10,0,10,£7.50,0,£7.50,03/06/2022,11:30,45,£30.00
+101,Joe Brown,0121 543182,Jbrown@gmaiy.com,D231,Max,Golden Retriever,Medium,Double,Does not like hairdryer on face,W011,Wash and Dry,15,50,22.5,£10.00,50,£15.00,15/10/2022,09:15,60,£55.50
+101,Joe Brown,0121 543182,Jbrown@gmaiy.com,D231,Max,Golden Retriever,Medium,Double,Does not like hairdryer on face,C034,Breed Trim,15,50,22.5,£20.00,50,£30.00,15/10/2022,09:15,60,£55.50
+101,Joe Brown,0121 543182,Jbrown@gmaiy.com,D231,Max,Golden Retriever,Medium,Double,Does not like hairdryer on face,X110,Undercoat Reduction,10,50,15,£7.00,50,£10.50,15/10/2022,09:15,60,£55.50
+398,Penny Patel,7684 298871,ppatel@gsnail.com,D887,Dumbledore,Akita,Medium,Double,Sensitive Ears,N045,Nail Trim ,10,0,10,£5.00,0,£5.00,12/07/2022,14:15,70,£61.25
+398,Penny Patel,0121 543182,ppatel@gsnail.com,D887,Dumbledore,Akita,Medium,Double,Sensitive Ears,W050,Luxury Wash and Dry,25,50,37.5,£17.50,50,£26.25,12/07/2022,14:15,70,£61.25
+398,Penny Patel,0121 543182,ppatel@gsnail.com,D887,Dumbledore,Akita,Medium,Double,Sensitive Ears,C034,Breed Trim,15,50,22.5,£20.00,50,£30.00,12/07/2022,14:15,70,£61.25
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,N045,Nail Trim ,10,0,10,£5.00,0,£5.00,15/10/2022,15:00,60,£52.50
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,W050,Luxury Wash and Dry,25,0,25,£17.50,0,£17.50,15/10/2022,15:00,60,£52.50
+212,Samantha Kibson,7890 67123,kibsons@yakkity.co.uk,D321,Poppy-Sage,Pomeranian,Small,Double,Needs a muzzle for nail trim,C021,Teddy Bear Cut,25,0,25,£30.00,0,£30.00,15/10/2022,15:00,60,£52.50
